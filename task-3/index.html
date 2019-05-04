@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Document</title>
+
+  <!-- 
+
+        Google Fonts used:
+        - Montserrat
+
+     -->
+  <style>
+    .full-width {
+      width: 250px;
+    }
+
+    .full-border {
+      margin: 200px;
+      text-align: center;
+    }
+
+    button {
+      border: none;
+      padding: 10px;
+      font-size: 30px;
+    }
+
+    .button:hover {
+      background-color: #43a7bb;
+      color: white;
+    }
+
+   
+
+    body {
+      background-image: linear-gradient(to right, #5bd1d7, #93d395);
+     
+    }
+  </style>
+</head>
+
+<body>
+  <div class="full-border">
+    <h2>FullName</h2>
+    <input type="text" class="full-width" name="name" id="name" maxlength="15" required />
+
+    <h2>Age</h2>
+    <input type="number" class="full-width" name="Age" id="Age" min="18" max="35" value=Enter your Age />
+
+    <h2>Email Address</h2>
+    <input type="email" class="full-width" name="email" id="email" />
+
+    <h2>Password</h2>
+    <input type="password" class="full-width" name="password" id="password" /><br>
+    <br>
+    <button class="button">Login</button>        
+    <p>Forgot your password</p>
+  </div>
+</body>
+
+</html>
